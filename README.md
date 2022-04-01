@@ -2,10 +2,10 @@
 `glb` stands for `glb Load Balancer`; no, it's not `Generics Load Balancer`.
 
 I decided to practice generics in Go 1.18 and developed this in the process.
-The idea behind it was hugely influence by [bag](https://github.com/toeydevelopment/bag).
+The idea behind it was hugely inspired by [bag](https://github.com/toeydevelopment/bag).
 Kudos to the author...
 
-The repo contains implementatio of the following load balancing algorithms:
+The repo contains implementation of the following load balancing algorithms:
 - RoundRobin
 - LeastConns
 
