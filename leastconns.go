@@ -59,8 +59,7 @@ func (lc *LeastConns[T]) Next(ctx context.Context) (T, error) {
 	return lc.backends[idx].b, nil
 }
 
-// leastUsedBackend returns the *backend with the least
-// number of connections.
+// leastUsedBackend returns the index of least used backend.
 func (lc *LeastConns[T]) leastUsedBackendIdx() int {
 	// lc.backends is guaranteed to have at least 1 element.
 	idx := 0
